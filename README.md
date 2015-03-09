@@ -12,7 +12,7 @@ Install Tools
 ### Install SASS and Bower
 
     gem install sass
-    npm install bower
+    npm install
     
 ### Install Sculpin
 
@@ -26,6 +26,9 @@ Note: Make sure `~/bin` is in your path.
 
 Build
 -----
+
+Run these build commands in their own processes, since they are both _watch_-style
+commands, that will update the site based on changes to the source files.
 
 ### Run SASS
 
